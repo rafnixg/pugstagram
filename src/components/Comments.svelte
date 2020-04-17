@@ -5,7 +5,7 @@
     const msg = event.target.text.value;
     if (msg.length > 3) {
       const message = {
-        id: Data.now(),
+        id: Date.now(),
         text: msg,
         username: "rafnixg"
       };
